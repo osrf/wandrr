@@ -1,0 +1,8 @@
+foot board firmware structure:
+
+sch    = foot board schematics
+common = foot board library
+bl     = bootloader. for now this just boots the application after 100ms
+blink  = LED blinker. exercises board startup, console, and LED
+console_test = prints the adc values to the console every 500ms
+usb_foot = streams the adc values as USB bulk transfers to EP1
