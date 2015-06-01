@@ -1,0 +1,15 @@
+localparam OP_NOP   = 8'h0;
+localparam OP_IN    = 8'h1;
+localparam OP_OUT   = 8'h2;
+localparam OP_ADD   = 8'h3;
+localparam OP_SUB   = 8'h4;
+localparam OP_S2F   = 8'h5; // convert short (16-bit) to float32
+localparam OP_MUL   = 8'h6; // float32 multiply
+localparam OP_HALT  = 8'h7;
+localparam OP_MIN   = 8'h8;
+localparam OP_MAX   = 8'h9;
+localparam OP_F2S   = 8'ha;
+localparam OP_SQRT  = 8'hb;
+localparam OP_DIV   = 8'hc;
+localparam OP_SIN   = 8'hd;
+localparam OP_USMOD = 8'hf; // modulo of two unsigned short-16's
