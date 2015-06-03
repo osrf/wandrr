@@ -1,0 +1,1 @@
+ACTION=="add", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="fac6", RUN+="/sbin/modprobe ftdi_sio" RUN+="/bin/sh -c 'echo 0403 fac6 > /sys/bus/usb-serial/drivers/ftdi_sio/new_id'" 

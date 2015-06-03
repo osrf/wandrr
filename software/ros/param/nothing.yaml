@@ -1,0 +1,18 @@
+global:
+  foc_bus_voltage: 36
+chains:
+  -
+    eth0:
+      -
+        name: motor0
+        foc_max_effort: 36
+        foc_integrator_limit: 0.01
+        foc_stator_offset: 0
+        foc_kp: -60  #-5
+        foc_ki: -200
+        enable_mosfets: true
+        damping: -1.0 #0.0
+        resistance: 3.8
+        temperature_limit: 30
+        ignore_thermistor: false
+        #foot_port: 3

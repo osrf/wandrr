@@ -1,0 +1,15 @@
+global:
+  foc_bus_voltage: 100
+chains:
+  -
+    eth1:
+      -
+        name: motor0
+        foc_max_effort: 95
+        foc_integrator_limit: 1
+        foc_stator_offset: 0
+        foc_kp: -20
+        foc_ki: -400
+        enable_mosfets: true
+        damping: 0
+        resistance: 3.8

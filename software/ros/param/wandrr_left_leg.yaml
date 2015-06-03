@@ -1,0 +1,53 @@
+global:
+  foc_bus_voltage: 36
+chains:
+  -
+    eth1:
+      -
+        name: motorL0
+        foc_max_effort: 20
+        foc_integrator_limit: 20
+        foc_stator_offset: 554
+        pole_pairs: 8
+        foc_kp: -20
+        foc_ki: -400
+      -
+        name: motorL1
+        foc_max_effort: 20
+        foc_integrator_limit: 20
+        foc_stator_offset: 49
+        pole_pairs: 12
+        foc_kp: -3
+        foc_ki: -100
+      -
+        name: motorL2
+        foc_max_effort: 20
+        foc_integrator_limit: 20
+        foc_stator_offset: 1293
+        pole_pairs: 8
+        foc_kp: -20
+        foc_ki: -400
+      -
+        name: motorL3
+        foc_max_effort: 20
+        foc_integrator_limit: 20
+        foc_stator_offset: 1164
+        pole_pairs: 12
+        foc_kp: -3
+        foc_ki: -100
+      -
+        name: motorL4
+        foc_max_effort: 20
+        foc_integrator_limit: 20
+        foc_stator_offset: 118
+        pole_pairs: 8
+        foc_kp: -20
+        foc_ki: -400
+      -
+        name: motorL5
+        foc_max_effort: 20
+        foc_integrator_limit: 20
+        foc_stator_offset: 1525
+        pole_pairs: 8
+        foc_kp: -20
+        foc_ki: -400     

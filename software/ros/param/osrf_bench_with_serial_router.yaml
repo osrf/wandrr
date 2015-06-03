@@ -1,0 +1,16 @@
+global:
+  foc_bus_voltage: 36
+  serial_router_interface: eth2
+chains:
+  -
+    eth1:
+      -
+        name: motor0
+        foc_max_effort: 32
+        foc_integrator_limit: 0.01
+        foc_stator_offset: 0
+        foc_kp: -20
+        foc_ki: -400
+        enable_mosfets: true
+        damping: 10.0
+        resistance: 3.8

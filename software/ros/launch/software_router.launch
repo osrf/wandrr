@@ -1,0 +1,4 @@
+<launch>
+  <arg name="params" default="single_board"/>
+  <node name="software_router" pkg="wandrr" type="software_router" args="$(arg params).yaml" output="screen"/>
+</launch>
