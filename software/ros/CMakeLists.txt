@@ -83,3 +83,6 @@ target_link_libraries(play_dmxl_script wandrr wandrr_ros ${catkin_LIBRARIES})
 add_executable(arm_controller arm_controller.cpp)
 target_link_libraries(arm_controller wandrr wandrr_ros ${catkin_LIBRARIES})
 
+add_executable(booth_arm_controller booth_arm_controller.cpp)
+target_link_libraries(booth_arm_controller wandrr wandrr_ros ${catkin_LIBRARIES})
+

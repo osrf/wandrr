@@ -5,7 +5,7 @@
 #include <netinet/in.h>
 #include <ifaddrs.h>
 #include <cstdio>
-#include "../../../firmware/wandrr/sr/common/state.h"
+#include "../../firmware/rs485_router/common/state.h"
 using namespace wandrr;
 
 SerialRouter::SerialRouter(const char *iface)

@@ -5,7 +5,7 @@
 #include <netinet/in.h>
 #include <ifaddrs.h>
 #include <cstdio>
-#include "../../../firmware/wandrr/pr/common/state.h"
+#include "../../firmware/power_router/common/state.h"
 using namespace wandrr;
 
 PowerRouter::PowerRouter(const char *iface)
